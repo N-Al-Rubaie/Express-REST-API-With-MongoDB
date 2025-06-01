@@ -1,0 +1,18 @@
+{
+  "name": "rest_api",
+  "version": "1.0.0",
+  "description": "REST API using MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "N-Al-Rubaie",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.1",
+    "nodemon": "^3.1.10"
+  }
+}
